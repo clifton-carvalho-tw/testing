@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <form id="testForm" action="http://localhost:8080/postAndRedirect" method="post" enctype="multipart/form-data">
+            <input type="hidden" id="encryptedData" name="encryptedData" value="WatchaLookin??">
+            <input id="postSubmit" type="submit" value="Hit It!"">
+        </form>
+    </div>
+    </body>
+</html>
